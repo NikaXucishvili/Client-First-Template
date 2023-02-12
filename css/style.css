@@ -1709,8 +1709,10 @@ header #menu-btn {
     display: block;
     margin: 0 auto;
   }
+  .specialpost .leftimg {
+    margin: 0 auto;
+  }
   .specialpost .leftimg img {
-    margin-top: 100px;
     width: 70%;
   }
   .team .container {
