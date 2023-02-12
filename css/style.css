@@ -1534,6 +1534,10 @@ header #menu-btn {
     width: 70px;
     margin-left: 0px;
   }
+  .authors .fourbox {
+    display: grid;
+    gap: 20px;
+  }
 }
 @media screen and (max-width: 472px) {
   .home .container {
@@ -1680,6 +1684,10 @@ header #menu-btn {
     display: block;
     margin-top: 50px;
     height: 80%;
+  }
+  .catagory .boxes {
+    display: grid;
+    gap: 20px;
   }
   .catagory .boxes .box {
     padding: 0;
