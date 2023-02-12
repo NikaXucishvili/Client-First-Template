@@ -1618,12 +1618,14 @@ header #menu-btn {
 }
 @media screen and (max-width: 399px) {
   .featured {
-    align-items: center;
-    flex-direction: column;
-    height: 100%;
+    width: 100%;
+    display: block;
+    height: 1300px;
+    margin: 0 auto;
   }
   .featured .left {
     width: 300px;
+    margin: 0 auto;
   }
   .featured .left h3 {
     font-size: 1.5rem;
@@ -1652,9 +1654,10 @@ header #menu-btn {
   .featured .right {
     width: 300px;
     height: 600px;
-    margin-top: 20px;
+    margin: 0 auto;
   }
   .featured .right .header {
+    display: block;
     margin-left: 0px;
     width: 300px;
   }
@@ -1671,10 +1674,12 @@ header #menu-btn {
     padding-left: 0px;
   }
   .featured .right .box h2 {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
   }
   .catagory {
+    display: block;
     margin-top: 50px;
+    height: 80%;
   }
   .catagory .boxes .box {
     padding: 0;
@@ -1691,9 +1696,14 @@ header #menu-btn {
   .catagory .boxes .box p {
     margin-top: 10px;
   }
+  .specialpost {
+    width: 100%;
+    display: block;
+    margin: 0 auto;
+  }
   .specialpost .leftimg img {
     margin-top: 100px;
-    width: 50%;
+    width: 70%;
   }
   .team .container {
     width: 100%;

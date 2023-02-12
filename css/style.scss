@@ -1978,11 +1978,13 @@ header {
 
 @media screen and (max-width: 399px) {
     .featured{
-        align-items: center;
-        flex-direction: column;
-        height: 100%;
+        width: 100%;
+        display: block;
+        height: 1300px;
+        margin: 0 auto;
         .left{
             width: 300px;
+            margin: 0 auto;
 
             h3{
                 font-size: 1.5rem;
@@ -2015,8 +2017,9 @@ header {
         .right{
             width: 300px;
             height: 600px;
-            margin-top: 20px;
+            margin: 0 auto;
             .header{
+                display: block;
                 margin-left: 0px;
                 width: 300px;
                 h4{
@@ -2034,7 +2037,7 @@ header {
                 padding-left: 0px;
 
                 h2{
-                    font-size: 0.8rem;
+                    font-size: 0.7rem;
                 }
             }
         }
@@ -2042,7 +2045,9 @@ header {
     }
 
     .catagory{
+        display: block;
         margin-top: 50px;
+        height: 80%;
         .boxes{
             .box{
                 padding: 0;
@@ -2063,10 +2068,13 @@ header {
     }
 
     .specialpost{
+        width: 100%;
+        display: block;
+        margin: 0 auto;
         .leftimg{
             img{
                 margin-top: 100px;
-                width: 50%;
+                width: 70%;
             }
         }
     }
